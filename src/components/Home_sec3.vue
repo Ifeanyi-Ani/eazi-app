@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-20">
+  <section class="py-20">
     <SectionTitle
       title="How Eazipay Works"
       subtitle="Get started in 3 simple steps."

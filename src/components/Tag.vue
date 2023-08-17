@@ -1,6 +1,8 @@
 <template>
   <div :class="[custom]">
-    <div class="flex gap-12 p-3 border border-gray-300 shadow-md">
+    <div
+      class="flex gap-12 p-3 bg-white rounded-md border border-gray-300 shadow-md"
+    >
       <div class="ellipseWraper">
         <img :src="[outerLogo]" alt="ellipse" :class="['ellipse']" />
         <img :src="[innerLogo]" alt="apple" :class="['logo']" />

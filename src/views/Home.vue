@@ -1,10 +1,13 @@
 <template>
   <div class="cont-wrap">
     <Header />
-    <Home_sec1 />
+    <section1 />
   </div>
-  <Home_sec2 />
-  <Home_sec3 />
+  <section2 />
+  <section3 />
+  <section4 />
+  <section5 />
+  <Footer />
 </template>
 
 <script>
@@ -12,13 +15,19 @@ import Header from '../components/Header.vue'; // Adjust the path based on your 
 import Home_sec1 from '../components/Home_sec1.vue';
 import Home_sec2 from '../components/Home_sec2.vue';
 import Home_sec3 from '../components/Home_sec3.vue';
+import Home_sec4 from '../components/Home_sec4.vue';
+import Home_sec5 from '../components/Home_sec5.vue';
+import Footer from '../components/Footer.vue';
 
 export default {
   components: {
     Header,
-    Home_sec1,
-    Home_sec2,
-    Home_sec3,
+    section1: Home_sec1,
+    section2: Home_sec2,
+    section3: Home_sec3,
+    section4: Home_sec4,
+    section5: Home_sec5,
+    Footer,
   },
 };
 </script>
