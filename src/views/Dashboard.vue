@@ -84,7 +84,7 @@
             <img src="../assets/notification.svg" alt="logo" />
           </div>
           <div class="actx flex items-center justify-center gap-3">
-            <div class="imgCon">
+            <div class="avater">
               <img src="../assets/account.svg" alt="account-pics" />
             </div>
             <div class="nameCon">
@@ -121,13 +121,193 @@
             </div>
             <div class="small-side">
               <div class="title"><h6 class="">Next Payroll</h6></div>
-              <div class="date">
-                <div class="bx"></div>
+              <div class="date pb-10">
+                <div class="bx flex gap-2">
+                  <img src="../assets/calendar.svg" alt="calender" />
+                  <h6>Friday</h6>
+                </div>
                 <h6>09/11/2022</h6>
               </div>
-              <div class="info">
+              <div class="info flex flex-col">
                 <h6>Total Employee</h6>
                 <h2>64</h2>
+                <div class="flex w-full">
+                  <div class="greenBar"></div>
+                  <div class="yellowBar"></div>
+                </div>
+                <div class="flex w-full">
+                  <div class="w-3/6">
+                    <span>Male</span><br /><span>32</span>
+                  </div>
+                  <div class="w-3/6">
+                    <span>Female</span><br /><span>32</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="w-full mt-5">
+          <div class="graph w-full"></div>
+        </section>
+        <section class="mt-5">
+          <h2>Recent Activities</h2>
+          <div class="flex justify-between mt-3">
+            <div class="relative w-4/5 b-search">
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="search employee"
+              />
+              <div class="absolute top-0 right-0 search"></div>
+            </div>
+            <div
+              class="flex gap-2 w-2/12 items-center justify-center border rounded-2xl"
+            >
+              <div><img src="../assets/filter.svg" alt="filter" /></div>
+              <h6>Filter</h6>
+            </div>
+          </div>
+          <div class="mt-5 recentAct">
+            <div class="itms">
+              <h6>Wednesday,November 09, 2022</h6>
+              <div class="flex flex-col gap-5 mt-4">
+                <div class="itm">
+                  <h5>PAYROLL</h5>
+                  <div class="flex justify-between items-end w-full">
+                    <div class="flex gap-4 items-end">
+                      <div class="avater">
+                        <img src="../assets/avater.svg" alt="avater" />
+                      </div>
+                      <h6>Badmus Kemis</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>ACTIVITY</h5>
+                      <h6>Paid November 2022 salary</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>EMPLOYEE</h5>
+                      <h6>52</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>TIME</h5>
+                      <h6>16:15</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="itms">
+              <h6>Wednesday,November 09, 2022</h6>
+              <div class="flex flex-col gap-5 mt-4">
+                <div class="itm">
+                  <h5>PAYROLL</h5>
+                  <div class="flex justify-between items-end w-full">
+                    <div class="flex gap-4 items-end">
+                      <div class="avater">
+                        <img src="../assets/avater.svg" alt="avater" />
+                      </div>
+                      <h6>Badmus Kemis</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>ACTIVITY</h5>
+                      <h6>Paid November 2022 salary</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>EMPLOYEE</h5>
+                      <h6>52</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>TIME</h5>
+                      <h6>16:15</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="itms">
+              <h6>Wednesday,November 09, 2022</h6>
+              <div class="flex flex-col gap-5 mt-4">
+                <div class="itm">
+                  <h5>PAYROLL</h5>
+                  <div class="flex justify-between items-end w-full">
+                    <div class="flex gap-4 items-end">
+                      <div class="avater">
+                        <img src="../assets/avater.svg" alt="avater" />
+                      </div>
+                      <h6>Badmus Kemis</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>ACTIVITY</h5>
+                      <h6>Paid November 2022 salary</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>EMPLOYEE</h5>
+                      <h6>52</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>TIME</h5>
+                      <h6>16:15</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="itms">
+              <h6>Wednesday,November 09, 2022</h6>
+              <div class="flex flex-col gap-5 mt-4">
+                <div class="itm">
+                  <h5>PAYROLL</h5>
+                  <div class="flex justify-between items-end w-full">
+                    <div class="flex gap-4 items-end">
+                      <div class="avater">
+                        <img src="../assets/avater.svg" alt="avater" />
+                      </div>
+                      <h6>Badmus Kemis</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>ACTIVITY</h5>
+                      <h6>Paid November 2022 salary</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>EMPLOYEE</h5>
+                      <h6>52</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>TIME</h5>
+                      <h6>16:15</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="itms">
+              <h6>Wednesday,November 09, 2022</h6>
+              <div class="flex flex-col gap-5 mt-4">
+                <div class="itm">
+                  <h5>PAYROLL</h5>
+                  <div class="flex justify-between items-end w-full">
+                    <div class="flex gap-4 items-end">
+                      <div class="avater">
+                        <img src="../assets/avater.svg" alt="avater" />
+                      </div>
+                      <h6>Badmus Kemis</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>ACTIVITY</h5>
+                      <h6>Paid November 2022 salary</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>EMPLOYEE</h5>
+                      <h6>52</h6>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                      <h5>TIME</h5>
+                      <h6>16:15</h6>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -226,10 +406,16 @@ export default {
   width: 16px;
   height: 19.951px;
 }
-.actx img {
-  border-radius: 56px;
+.avater {
   width: 56px;
   height: 56px;
+}
+.avater img {
+  border-radius: 56px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .actx h4 {
   color: #2b2b2b;
@@ -259,6 +445,13 @@ section h6 {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
+}
+section h5 {
+  color: #8d8e8d;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
 }
 .inner-container {
   width: 90%;
@@ -324,5 +517,82 @@ section h6 {
   align-items: center;
   gap: 8px;
   align-self: stretch;
+  border-bottom: 1px solid gainsboro;
+}
+.small-side .info {
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  width: 80%;
+  margin: auto;
+}
+.yellowBar,
+.greenBar {
+  height: 8px;
+  flex: 1 0 0;
+  width: 50%;
+}
+.greenBar {
+  background: #11453b;
+}
+.yellowBar {
+  background: #ea4e4b;
+}
+.info span {
+  color: #8d8e8d;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px; /* 120% */
+}
+.graph {
+  height: 500px;
+
+  background: url('./src/assets/GRAPH.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.search {
+  background: url('./src/assets/search.svg') rgba(192, 235, 164, 0.7) no-repeat;
+  width: 100px;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+}
+.b-search {
+  pointer-events: none;
+}
+.b-search input {
+  width: 100%;
+  outline: none;
+  pointer-events: all;
+  border-radius: 20px;
+  border: 1px solid gainsboro;
+  padding-left: 20px;
+  http: ; //localhost:5173/dashboard#
+}
+.recentAct {
+  border-radius: 20px;
+  background: rgba(242, 241, 241, 0.5);
+  height: 752px;
+  padding: 40px;
+  align-self: stretch;
+  overflow-y: scroll;
+}
+.itm {
+  border-radius: 16px;
+  border: 1px solid #e7e8e7;
+  background: #fff;
+  box-shadow: 0px 9px 18px 0px rgba(170, 170, 170, 0.15);
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.itms {
+  margin-top: 20px;
 }
 </style>

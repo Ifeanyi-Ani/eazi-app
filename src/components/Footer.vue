@@ -10,7 +10,7 @@
         >
       </div>
       <div class="tag">
-        <img src="../assets/instagram.svg" alt="instagram-logo" />
+        <!-- <img src="../assets/instagram.svg" alt="instagram-logo" /> -->
         <img src="../assets/twitter.svg" alt="twitter-logo" />
         <img src="../assets/link.svg" alt="link-logo" />
         <img src="../assets/fbLogo.svg" alt="facebook-logo" />
