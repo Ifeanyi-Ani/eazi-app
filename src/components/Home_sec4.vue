@@ -100,7 +100,7 @@ h5 {
   left: 53%;
 }
 .stacked:nth-child(2) {
-  background: url('./src/assets/manRejoicing.png') #ea4e4b no-repeat;
+  background: url('/manRejoicing.png') #ea4e4b no-repeat;
 }
 .stacked-mini {
   position: absolute;

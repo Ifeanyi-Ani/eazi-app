@@ -40,7 +40,7 @@ import SectionTitle from './SectionTitle.vue';
 </script>
 <style scoped>
 .wrapper {
-  background: url('./src/assets/home_sec2_bg.png');
+  background: url('/home_sec2_bg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

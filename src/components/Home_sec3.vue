@@ -64,7 +64,7 @@ section {
   height: 682px;
   flex-shrink: 0;
   border-radius: 63.267px;
-  background: url('./src/assets/phone.gif'), lightgray;
+  background: url('/phone.gif'), lightgray;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -72,7 +72,7 @@ section {
   width: 45%;
   height: 608px;
   flex-shrink: 0;
-  background: url('./src/assets/accountStep.png');
+  background: url('/accountStep.png');
   background-repeat: no-repeat;
 }
 </style>

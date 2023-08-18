@@ -338,7 +338,7 @@ export default {
   width: 318.282px;
   height: 150.702px;
   flex-shrink: 0;
-  background: url('./src/assets/maskLogo.svg') rgba(17, 69, 59, 0.7) no-repeat;
+  background: url('/maskLogo.svg') rgba(17, 69, 59, 0.7) no-repeat;
   background-size: cover;
 }
 .logo a {
@@ -461,7 +461,7 @@ section h5 {
   width: 100%;
   height: 160px;
   flex-shrink: 0;
-  background: url('./src/assets/maskLogo.svg') rgba(17, 69, 59, 0.7) no-repeat;
+  background: url('/maskLogo.svg') rgba(17, 69, 59, 0.7) no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 20px;
@@ -549,7 +549,7 @@ section h5 {
 .graph {
   height: 500px;
 
-  background: url('./src/assets/GRAPH.png') no-repeat;
+  background: url('/graph.png') no-repeat;
   background-position: center;
   background-size: cover;
 }

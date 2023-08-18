@@ -1,5 +1,5 @@
 <template>
-  <footer class="flex items-center p-3">
+  <div class="flex footer items-center p-3">
     <div class="wrapper flex flex-col items-center justify-center">
       <div class="logo">
         <img src="../assets/logo.svg" alt="logo" />
@@ -42,11 +42,11 @@
         <li>+234 816 878 9518</li>
       </ul>
     </div>
-  </footer>
+  </div>
 </template>
 <script></script>
 <style scoped>
-footer {
+.footer {
   gap: 125px;
   border-top: 1px solid #eaeaea;
   background: #fff;
