@@ -37,7 +37,7 @@ export default {
 .cont-wrap {
   min-height: 110vh;
   margin-right: unset !important;
-  background: url('./src/assets/frame.svg');
+  background: url('/frame.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;

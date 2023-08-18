@@ -554,7 +554,7 @@ section h5 {
   background-size: cover;
 }
 .search {
-  background: url('./src/assets/search.svg') rgba(192, 235, 164, 0.7) no-repeat;
+  background: url('/search.svg') rgba(192, 235, 164, 0.7) no-repeat;
   width: 100px;
   height: 100%;
   background-size: contain;

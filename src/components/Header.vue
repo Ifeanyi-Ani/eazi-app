@@ -9,6 +9,7 @@
         <router-link to="/#" class="link">Business</router-link>
         <router-link to="/#" class="link">Pricing</router-link>
         <router-link to="/#" class="link">Set your payroll</router-link>
+        <router-link to="/dashboard" class="link">dashboard</router-link>
       </nav>
       <div class="space-x-2 flex gap-6">
         <BtnOutlined title="Login" />
