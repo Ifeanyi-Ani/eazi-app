@@ -10,10 +10,10 @@
         >
       </div>
       <div class="tag">
-        <img src="../assets/instagram.svg" alt="instagramlogo" />
-        <img src="../assets/twitter.svg" alt="twitterlogo" />
-        <img src="../assets/link.svg" alt="linklogo" />
-        <img src="../assets/fbLogo.svg" alt="facebooklogo" />
+        <div class="img inst"></div>
+        <div class="img twi"></div>
+        <div class="img lin"></div>
+        <div class="img fb"></div>
       </div>
     </div>
     <div class="flexLink flex justify-evenly">
@@ -71,6 +71,15 @@
   display: flex;
   justify-content: flex-start;
   gap: 10px;
+}
+.img {
+  width: 40px;
+  height: 40px;
+}
+.fb {
+  background: url('/fb.svg');
+  background-size: cover;
+  background-position: center;
 }
 .flexLink {
   width: 75%;
