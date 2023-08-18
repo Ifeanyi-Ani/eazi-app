@@ -17,9 +17,7 @@
         </div>
       </div>
       <div>
-        <a href="#" class="text-green-700 underline">
-          Download the Easipay App
-        </a>
+        <a href="#" class="h5-link"> Download the Easipay App </a>
         <div class="flex gap-16 mt-4">
           <Tag
             outer-logo="./src/assets/Ellipse.svg"
@@ -87,5 +85,12 @@ export default {
 }
 .seconds {
   color: #ea4e4b;
+}
+.h5-link {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
 }
 </style>

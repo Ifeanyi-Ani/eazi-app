@@ -10,7 +10,7 @@
         >
       </div>
       <div class="tag">
-        <div class="img inst"></div>
+        <div class="img insta"></div>
         <div class="img twi"></div>
         <div class="img lin"></div>
         <div class="img fb"></div>
@@ -76,8 +76,23 @@
   width: 40px;
   height: 40px;
 }
+.insta {
+  background: url('/Instagram.svg');
+  background-size: cover;
+  background-position: center;
+}
+.twi {
+  background: url('/Twitter.svg');
+  background-size: cover;
+  background-position: center;
+}
+.lin {
+  background: url('/link.svg');
+  background-size: cover;
+  background-position: center;
+}
 .fb {
-  background: url('/fb.svg');
+  background: url('/fbLogo.svg');
   background-size: cover;
   background-position: center;
 }

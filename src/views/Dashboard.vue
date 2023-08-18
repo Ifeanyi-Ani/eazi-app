@@ -113,10 +113,13 @@
                 </div>
               </div>
               <div class="actions flex justify-between gap-10">
-                <CardBox />
-                <CardBox />
-                <CardBox />
-                <CardBox />
+                <CardBox img="./src/assets/icon11.svg" title="Add Employee" />
+                <CardBox img="./src/assets/icon13.svg" title="Pay Salaries" />
+                <CardBox
+                  img="./src/assets/icon13.svg"
+                  title="Pay Compliances"
+                />
+                <CardBox img="./src/assets/icon14.svg" title="Quick Loan" />
               </div>
             </div>
             <div class="small-side">
