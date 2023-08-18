@@ -10,10 +10,10 @@
         >
       </div>
       <div class="tag">
-        <!-- <img src="../assets/instagram.svg" alt="instagram-logo" /> -->
-        <img src="../assets/twitter.svg" alt="twitter-logo" />
-        <img src="../assets/link.svg" alt="link-logo" />
-        <img src="../assets/fbLogo.svg" alt="facebook-logo" />
+        <img src="../assets/instagram.svg" alt="instagramlogo" />
+        <img src="../assets/twitter.svg" alt="twitterlogo" />
+        <img src="../assets/link.svg" alt="linklogo" />
+        <img src="../assets/fbLogo.svg" alt="facebooklogo" />
       </div>
     </div>
     <div class="flexLink flex justify-evenly">
